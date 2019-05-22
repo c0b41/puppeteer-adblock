@@ -1,0 +1,16 @@
+{
+  "name": "pup-adblock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "node ./src",
+    "dev:watch": "node_modules/.bin/nodemon --watch src"
+  },
+  "dependencies": {
+    "@cliqz/adblocker": "^0.9.1",
+    "nodemon": "^1.19.0",
+    "puppeteer-core": "^1.16.0"
+  }
+}
