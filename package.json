@@ -5,12 +5,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "node ./src",
-    "dev:watch": "node_modules/.bin/nodemon --watch src"
+    "dev": "node ./src"
   },
   "dependencies": {
     "@cliqz/adblocker": "^0.9.1",
-    "nodemon": "^1.19.0",
-    "puppeteer-core": "^1.16.0"
+    "isomorphic-unfetch": "^3.0.0",
+    "puppeteer": "^1.17.0",
+    "tldts": "^5.0.2"
   }
 }
